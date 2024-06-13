@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "个人简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,37 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育经历
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 硕士（2023-至今） 计算机技术 电子信息与工程学院 苏州科技大学
+* 本科（2019-2023） 数据科学与大数据技术 数学科学学院 重庆师范大学 
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+工作经历
+======
+* 2023-至今 苏州仲裁局智能仲裁项目
+  * **大模型事实认定：** 针对于仲裁局提供的pdf扫描件，使用pdf2docx进行批量文本转换并进行数据预处理，在完成对开源大模型进行相关领域数据的微调后，使用该模型对仲裁庭审语录的长文本进行事实争议的关键信息抽取。
+  * **知识检索增强生成：** 对于仲裁任务重所涉及到的证据认定部分使用milvus向量数据库进行知识库构建，对于抽取出的事实认定进行向量编码，在知识库中进行相关证据的数据检索并抓取。
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2021-2023 智慧金融与大数据分析实验室
+  * **单元测试：** 负责对项目的offline模块编写单元测试函数，主要使用python的unittest库进行测试。
+  * **数据扩增实验：** 复现了论文《SimCSE: Simple Contrastive Learning of Sentence Embeddings》中的实验结果，并在个人数据集上进行实验。使用Weights and Biases (WandB) 进行实验跟踪、模型管理和超参数优化。结果表明在模型蒸馏实验中，该对比学习框架能有效的在模型参数中保留知识，使得模型减重的同时也能在多分类任务中达到较高的准确度。
+  * **docker服务部署：** 将实验室的相关代码仓库和文档上传部署到实验室内部服务器。
+  * **wandb实验管理：** 使用WandB管理实验过程，确保数据和模型版本的一致性。对比不同变量的实验方法和效果，通过WandB的实验比较功能，找出最佳方案。
 
-Publications
+技能
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* 熟悉pytorch、transformer、huggingface、sklearn等科学库，能快速对论文进行复现
+* 熟悉conda，能快速对项目所需环境进行构建和配置
+* 理解大模型的相关架构，能用langchain进行大模型项目框架的构建
+* 理解docker使用原理，能对相关任务进行快速部署
+* 掌握wandb使用，能详细对实验过程进行可视化分析
+* 熟悉Linux操作系统，能在Linux环境下进行实验和开发
+* 了解前段架构如flask、Django等，能进行简单的网页编写
+
+技术博客
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* [个人网站](https://eee1even.github.io/)
+* [GitHub](https://github.com/EEE1even) （最高项目29个star）
+* [CSDN](https://blog.csdn.net/weixin_48435461?spm=1000.2115.3001.5343)（访问量5w+，获得455次收藏）
+
