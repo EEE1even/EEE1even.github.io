@@ -9,7 +9,7 @@ redirect_from:
 
 
 
-我现在研一，就读于[苏州科技大学]([https://eecs.pku.edu.cn/](https://www.usts.edu.cn/)), [电子与信息工程学院](https://eie.usts.edu.cn/). 我的研究方向是自然语言处理，主要聚焦于句向量表征学习和大模型的检索增强生成。
+我现在研一，就读于[苏州科技大学](https://www.usts.edu.cn/), [电子与信息工程学院](https://eie.usts.edu.cn/). 我的研究方向是自然语言处理，主要聚焦于句向量表征学习和大模型的检索增强生成。
 
 这是我的简历: [黄施洋's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
