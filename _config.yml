@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "黄施洋的主页"
+title                    : "Huang Shiyang's homepage"
 title_separator          : "-"
-name                     : &name "黄施洋"
+name                     : &name "Huang Shiyang(黄施洋)"
 description              : &description "NLP硕士在读"
 url                      : https://EEE1even.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,9 +24,9 @@ author:
   avatar           : "hsy.png"
   name             : "Huang Shiyang(黄施洋)"
   pronouns         : # example: "she/her"  
-  bio              : "NLP硕士在读"
+  bio              : "苏州科技大学"
   location         : "江苏 苏州"
-  employer         : "苏州科技大学"
+  employer         : 
   uri              : # URL
   email            : "1347597531@qq.com" 
 
