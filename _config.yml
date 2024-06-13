@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Homepage"
 title_separator          : "-"
-name                     : &name "Huang Shiyang(黄施洋)"
+name                     : &name "Huang Shiyang"
 description              : &description "NLP硕士在读"
 url                      : https://EEE1even.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "EEE1even/EEE1even.github.io"
 author:
   # Biographic information
   avatar           : "hsy.png"
-  name             : "Huang Shiyang(黄施洋)"
+  name             : "黄施洋"
   pronouns         : # example: "she/her"  
   bio              : "苏州科技大学"
   location         : "江苏 苏州"
