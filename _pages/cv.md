@@ -15,6 +15,7 @@ redirect_from:
 * 姓名：黄施洋
 * 生日：2001年4月24日
 * 籍贯：江苏 苏州
+* 电话：13915714407
 * [GitHub](https://github.com/EEE1even)（最高项目29个star）
 * [CSDN](https://blog.csdn.net/weixin_48435461?spm=1000.2115.3001.5343)（访问量5w+，获得455次收藏）
 
