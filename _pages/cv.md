@@ -10,6 +10,13 @@ redirect_from:
 {% include base_path %}
 
 -------
+个人信息
+======
+* 姓名：黄施洋
+* 生日：2001年4月24日
+* 籍贯：江苏 苏州
+* [GitHub](https://github.com/EEE1even)（最高项目29个star）
+* [CSDN](https://blog.csdn.net/weixin_48435461?spm=1000.2115.3001.5343)（访问量5w+，获得455次收藏）
 
 教育经历
 ======
@@ -43,9 +50,4 @@ redirect_from:
 * 熟悉Linux操作系统，能在Linux环境下进行实验和开发
 * 了解前段架构如flask、Django等，能进行简单的网页编写
 
-技术博客
-======
-* [个人网站](https://eee1even.github.io/)
-* [GitHub](https://github.com/EEE1even) （最高项目29个star）
-* [CSDN](https://blog.csdn.net/weixin_48435461?spm=1000.2115.3001.5343)（访问量5w+，获得455次收藏）
 
