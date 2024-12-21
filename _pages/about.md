@@ -14,7 +14,7 @@ redirect_from:
 
 我本科毕业于[重庆师范大学](https://www.cqnu.edu.cn/),[数学科学学院](https://math.cqnu.edu.cn/)。我在本科期间加入智慧金融与大数据分析实验室（重庆师范大学与马上消费共建实验室）进行相关的科学研究。
 
-这是我的简历: [黄施洋个人简历](../assets/Curriculum_Vitae.pdf).
+这是我的简历: [黄施洋个人简历](./cv.md).
 
 ---
 
