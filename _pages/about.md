@@ -22,7 +22,7 @@ I am currently a second-year master's student at [Suzhou University of Science a
 
 I graduated with a bachelor's degree from [Chongqing Normal University](https://www.cqnu.edu.cn/), [School of Mathematical Sciences](https://math.cqnu.edu.cn/). During my undergraduate period, I joined the Intelligence Finance and Big Data Analysis Laboratory (a joint laboratory between Chongqing Normal University and Mashang Consumer) for related scientific research.
 
-Here is my resume: [huangshiyang's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+Here is my resume: [huangshiyang's Curriculum Vitae](./cv.md).
 
 ---
 
