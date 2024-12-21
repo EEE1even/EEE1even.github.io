@@ -15,8 +15,8 @@ redirect_from:
 * 籍贯：江苏 苏州
 * 电话：13915714407
 * 微信：[EEE1even](../images/wechat.jpg)
-* [GitHub](https://github.com/EEE1even)
-* [CSDN](https://blog.csdn.net/weixin_48435461?spm=1000.2115.3001.5343)
+* [GitHub](https://github.com/EEE1even)(31 stars)
+* [CSDN](https://blog.csdn.net/weixin_48435461?spm=1000.2115.3001.5343)(8w+ visit)
 
 教育经历
 ======
