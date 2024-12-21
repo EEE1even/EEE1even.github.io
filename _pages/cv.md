@@ -8,13 +8,13 @@ redirect_from:
 ---
 
 {% include base_path %}
-
 -------
 * 姓名：黄施洋
 * 生日：2001年4月24日
 * 籍贯：江苏 苏州
 * 电话：13915714407
 * 微信：[EEE1even](../images/wechat.jpg)
+* 语言：CET6
 * [GitHub](https://github.com/EEE1even)(31 stars)
 * [CSDN](https://blog.csdn.net/weixin_48435461?spm=1000.2115.3001.5343)(8w+ visit)
 
