@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+
 -------
 * 姓名：黄施洋
 * 生日：2001.04.24
