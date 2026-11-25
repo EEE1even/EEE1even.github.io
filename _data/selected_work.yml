@@ -1,0 +1,17 @@
+- title: SafeWork-R1
+  topic: 多模态安全
+  summary: 构建安全训练数据，使用 GRPO 训练多模态奖励模型，让模型给出有依据的安全判断。
+  anchor: safework
+  image: safety.webp
+
+- title: 审讯笔录信息抽取
+  topic: 自然语言处理
+  summary: 将大模型的抽取能力蒸馏到 1.5B 模型，改善时间与物品识别，推理速度提升至原来的 5 倍。
+  anchor: extraction
+  image: extraction.webp
+
+- title: 智慧仲裁
+  topic: 法律人工智能
+  summary: 为苏州劳动人事仲裁搭建事实抽取工作流，将法律知识库与小模型结合，辅助仲裁办案。
+  anchor: arbitration
+  image: arbitration.webp

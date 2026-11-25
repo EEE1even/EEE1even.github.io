@@ -1,0 +1,76 @@
+---
+layout: profile
+permalink: /
+title: "个人主页"
+excerpt: "黄施洋的个人研究主页，记录自然语言处理、多模态模型安全与智慧仲裁项目。"
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<section class="hero frame" aria-labelledby="intro-title">
+  <div class="hero-copy">
+    <p class="eyebrow" lang="en">Research profile</p>
+    <h1 id="intro-title">黄施洋<span class="latin-name" lang="en">Shiyang Huang</span></h1>
+    <div class="affiliation">
+      <span><i class="icon icon-university" aria-hidden="true"></i><a href="https://www.usts.edu.cn/">苏州科技大学</a></span>
+      <span><i class="icon icon-location" aria-hidden="true"></i>江苏 · 苏州</span>
+    </div>
+    <p class="intro-text">我研究自然语言处理，关注多模态大模型的安全训练，也在探索如何用语言模型辅助司法工作中的事实抽取。</p>
+    <div class="hero-actions">
+      <a class="button primary" href="{{ '/cv/' | relative_url }}"><i class="icon icon-file" aria-hidden="true"></i>查看个人简历</a>
+      <a class="button secondary" href="https://github.com/{{ site.author.github }}"><i class="icon icon-github" aria-hidden="true"></i>GitHub</a>
+    </div>
+  </div>
+  <figure class="hero-figure">
+    <div class="figure-field">
+      <span class="figure-symbol" aria-hidden="true">r(x, y)</span>
+      <img src="{{ '/assets/images/landscape.webp' | relative_url }}" alt="蓝色线网构成的三维曲面，有起伏的峰与谷。" width="960" height="600" fetchpriority="high">
+    </div>
+    <figcaption><span lang="en"><i class="mesh-key" aria-hidden="true"></i>Reward landscape</span><span>奖励曲面示意</span></figcaption>
+  </figure>
+</section>
+
+<section class="work-section" id="research" aria-labelledby="work-heading">
+  <div class="frame">
+    <div class="section-heading">
+      <p class="eyebrow" lang="en">Selected work</p>
+      <h2 id="work-heading">研究与项目</h2>
+    </div>
+    <div class="project-grid">
+      {% for work in site.data.selected_work %}
+        <article class="project-card">
+          <a href="{{ '/cv/' | relative_url }}#{{ work.anchor }}">
+            <img class="project-image" src="{{ '/assets/images/' | append: work.image | relative_url }}" alt="" width="700" height="280">
+            <div class="project-body">
+              <p class="project-topic">{{ work.topic }}</p>
+              <h3>{{ work.title }}</h3>
+              <p class="project-summary">{{ work.summary }}</p>
+            </div>
+          </a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="frame background-section" id="experience" aria-labelledby="background-heading">
+  <div class="biography">
+    <p class="eyebrow" lang="en">Background</p>
+    <h2 id="background-heading">个人经历</h2>
+    <div class="portrait-line">
+      <img src="{{ '/assets/images/shiyang.webp' | relative_url }}" width="60" height="60" alt="黄施洋">
+      <div><strong>黄施洋</strong><span lang="en">Shiyang Huang</span></div>
+    </div>
+    <details class="english-bio" lang="en">
+      <summary>English bio</summary>
+      <p>My research focuses on natural language processing and multimodal model safety. I studied data science at Chongqing Normal University and pursued graduate research at Suzhou University of Science and Technology. My research experience includes internships at Shanghai AI Laboratory and iFLYTEK’s Suzhou Research Institute.</p>
+    </details>
+  </div>
+  <div class="experience-list">
+    <div class="experience-row"><span class="period">2025.05 起</span><div><h3>上海人工智能实验室</h3><p>安全可信 AI 中心 · 多模态算法实习</p></div></div>
+    <div class="experience-row"><span class="period">2024.07 — 2024.12</span><div><h3>科大讯飞苏州研究院</h3><p>图谱星球 · 大模型算法实习</p></div></div>
+    <div class="experience-row"><span class="period">2023 起</span><div><h3><a href="https://eie.usts.edu.cn/">苏州科技大学</a></h3><p>电子与信息工程学院 · 计算机技术硕士阶段</p></div></div>
+    <div class="experience-row"><span class="period">2019 — 2023</span><div><h3><a href="https://www.cqnu.edu.cn/">重庆师范大学</a></h3><p><a href="https://math.cqnu.edu.cn/">数学科学学院</a> · 数据科学与大数据技术本科</p><p>本科期间加入学校与马上消费共建的智慧金融与大数据分析实验室。</p></div></div>
+  </div>
+</section>

@@ -7,11 +7,11 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Homepage"
+locale                   : "zh-CN"
+title                    : "黄施洋 · Shiyang Huang"
 title_separator          : "-"
 name                     : &name "Huang Shiyang"
-description              : &description "NLP硕士在读"
+description              : &description "黄施洋的个人研究主页，关注自然语言处理、多模态模型安全与法律人工智能。"
 url                      : https://EEE1even.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "EEE1even/EEE1even.github.io"
