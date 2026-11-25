@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-    {% include seo.html %}
-    <meta name="description" content="{{ page.excerpt | default: site.description | escape }}">
+    {% seo %}
+    {% feed_meta %}
     <link rel="icon" href="{{ '/assets/images/profile-mark.png' | relative_url }}" type="image/png">
     <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
   </head>
@@ -13,9 +13,9 @@
     <a class="skip-link" href="#main">跳至正文</a>
     <header class="site-header">
       <div class="frame header-inner">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="EEE1even 个人主页">
+        <a class="brand" href="{{ '/' | relative_url }}" lang="en">
           <img src="{{ '/assets/images/profile-mark.png' | relative_url }}" width="32" height="32" alt="">
-          EEE1even<span class="brand-dot" aria-hidden="true">.</span>
+          About Me
         </a>
         <nav class="main-nav" aria-label="主导航">
           {% for link in site.data.navigation.main %}
@@ -25,24 +25,7 @@
         <a class="contact-link" href="#contact"><i class="icon icon-mail" aria-hidden="true"></i>联系我</a>
       </div>
     </header>
-    <main id="main">
-      {% if page.profile_kind == 'cv' %}
-        <article class="frame cv-page">
-          <header class="cv-header">
-            <p class="eyebrow" lang="en">Curriculum vitae</p>
-            <h1>个人简历</h1>
-            <div class="cv-intro">
-              <p>黄施洋 <span lang="en">Shiyang Huang</span></p>
-              <a class="button primary" href="{{ '/assets/黄施洋个人简历.pdf' | relative_url }}" download><i class="icon icon-file" aria-hidden="true"></i>下载 PDF 简历</a>
-            </div>
-            {% if page.data_as_of %}<p class="cv-updated">履历资料截至 {{ page.data_as_of }}</p>{% endif %}
-          </header>
-          <div class="cv-content">{{ content }}</div>
-        </article>
-      {% else %}
-        {{ content }}
-      {% endif %}
-    </main>
+    <main id="main">{{ content }}</main>
     <footer class="site-footer" id="contact">
       <div class="frame footer-inner">
         <div>

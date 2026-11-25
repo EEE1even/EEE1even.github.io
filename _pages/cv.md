@@ -1,6 +1,6 @@
 ---
-layout: profile
-profile_kind: cv
+layout: article
+resume_pdf: /assets/黄施洋个人简历.pdf
 data_as_of: "2025 年 9 月"
 title: "个人简历"
 permalink: /cv/
